@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\C++\code\MySTL\main.cpp(9,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\C++\code\MySTL\main.cpp(15,20): warning C4018: “<”: 有符号/无符号不匹配
+  MySTL.vcxproj -> D:\C++\code\MySTL\Debug\MySTL.exe

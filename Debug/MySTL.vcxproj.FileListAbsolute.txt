@@ -1,0 +1,2 @@
+D:\C++\code\MySTL\Debug\MySTL.exe
+D:\C++\code\MySTL\Debug\MySTL.pdb
