@@ -510,7 +510,7 @@ namespace mystl
 	/*****************************************************************************************/
 
 // 复制赋值运算符
-	template <class T>
+	/*template <class T>
 	deque<T>& deque<T>::operator=(const deque& rhs)
 	{
 		if (this != &rhs)
@@ -528,7 +528,7 @@ namespace mystl
 			}
 		}
 		return *this;
-	}
+	}*/
 
 	// 移动赋值运算符
 	template <class T>
@@ -577,7 +577,7 @@ namespace mystl
 	}
 
 	// 在头部就地构建元素
-	template <class T>
+	/*template <class T>
 	template <class ...Args>
 	void deque<T>::emplace_front(Args&& ...args)
 	{
@@ -600,7 +600,7 @@ namespace mystl
 				throw;
 			}
 		}
-	}
+	}*/
 
 	// 在尾部就地构建元素
 	template <class T>
@@ -786,7 +786,7 @@ namespace mystl
 	}
 
 	// 删除 position 处的元素
-	template <class T>
+	/*template <class T>
 	typename deque<T>::iterator
 		deque<T>::erase(iterator position)
 	{
@@ -804,7 +804,7 @@ namespace mystl
 			pop_back();
 		}
 		return begin_ + elems_before;
-	}
+	}*/
 
 	// 删除[first, last)上的元素
 	template <class T>

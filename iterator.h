@@ -24,8 +24,8 @@ namespace mystl
 	{
 		typedef Category	iterator_category;	//表示迭代器所能执行的操作 对应上述迭代器五种类型
 		typedef T			value_type;			//迭代器对象所指对象的类别		 	
-		typedef Pointer		pointer;			//表示迭代器指针类别
-		typedef	Reference	reference;			//表示迭代器引用类别 
+		typedef Pointer		pointer;			//表示迭代器所指内容的地址
+		typedef	Reference	reference;			//表示迭代器所指内容 
 		typedef Distance	difference_type;	//表示两个迭代器之间的距离，因此也可以用来表示一个容器的最大容量
 	};
 	// iterator traits
@@ -87,8 +87,8 @@ namespace mystl
 		typedef random_access_iterator_tag	iterator_categoty;
 		typedef T							value_type;
 		typedef prtdiff_t					difference_type;
-		typedef T* pointer;
-		typedef T& reference;
+		typedef T*							pointer;
+		typedef T&							reference;
 	};
 
 	template <class T, class U, bool = has_iterator_cat<iterator_traits<T>>::value>

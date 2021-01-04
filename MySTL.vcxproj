@@ -147,9 +147,13 @@
     <ClInclude Include="construct.h" />
     <ClInclude Include="exceptdef.h" />
     <ClInclude Include="functional.h" />
+    <ClInclude Include="heap_algo.h" />
     <ClInclude Include="iterator.h" />
     <ClInclude Include="list.h" />
     <ClInclude Include="memory.h" />
+    <ClInclude Include="deque.h" />
+    <ClInclude Include="queue.h" />
+    <ClInclude Include="stack.h" />
     <ClInclude Include="type_traits.h" />
     <ClInclude Include="uninitialized.h" />
     <ClInclude Include="util.h" />
