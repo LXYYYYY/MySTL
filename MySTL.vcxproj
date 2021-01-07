@@ -150,9 +150,12 @@
     <ClInclude Include="heap_algo.h" />
     <ClInclude Include="iterator.h" />
     <ClInclude Include="list.h" />
+    <ClInclude Include="map.h" />
     <ClInclude Include="memory.h" />
     <ClInclude Include="deque.h" />
     <ClInclude Include="queue.h" />
+    <ClInclude Include="rb_tree.h" />
+    <ClInclude Include="set.h" />
     <ClInclude Include="stack.h" />
     <ClInclude Include="type_traits.h" />
     <ClInclude Include="uninitialized.h" />
